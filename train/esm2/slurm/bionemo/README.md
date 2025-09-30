@@ -6,7 +6,7 @@ This guidance provides step by step instructions to pretrain [ESM2](https://docs
 
 ## 0. Prerequisites
 
-Have a slurm based Sagemaker HyperPod cluster with Nvidia GPUs.
+Have a slurm based Sagemaker HyperPod cluster with NVIDIA GPUs.
 
 ## 1. Setup environment variables
 
