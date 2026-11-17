@@ -358,7 +358,7 @@ cat > cluster-config.json << EOL
 EOL
 
 # Validate Cluster configuration
-wget --no-clobber https://raw.githubusercontent.com/aws-samples/awsome-distributed-training/main/1.architectures/5.sagemaker-hyperpod/validate-config.py
+wget --no-clobber https://raw.githubusercontent.com/awslabs/awsome-distributed-ai/main/architectures/sagemaker-hyperpod-slurm/validate-config.py
 # install boto3
 pip3 install boto3
 # check config for known issues
